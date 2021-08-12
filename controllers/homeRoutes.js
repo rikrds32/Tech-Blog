@@ -24,5 +24,6 @@ router.get('/', async (req, res) => {
     // } catch (err) {
     //   res.status(500).json(err);
     // }
-    res.render("index");
+    res.render("homepage");
   });
+  module.exports = router;
